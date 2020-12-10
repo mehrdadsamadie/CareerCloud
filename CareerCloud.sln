@@ -7,13 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CareerCloud.Pocos", "Career
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CareerCloudCore.UnitTests.Assignment1", "CareerCloudCore.UnitTests.Assignment1\CareerCloudCore.UnitTests.Assignment1.csproj", "{20065C74-464D-4D82-90B9-25365464AB19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloud.ADODataAccessLayer", "CareerCloud.ADODataAccessLayer\CareerCloud.ADODataAccessLayer.csproj", "{A708ED94-6AC8-4F3D-BCFF-2E715DF8080F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CareerCloud.ADODataAccessLayer", "CareerCloud.ADODataAccessLayer\CareerCloud.ADODataAccessLayer.csproj", "{A708ED94-6AC8-4F3D-BCFF-2E715DF8080F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloud.DataAccessLayer", "CareerCloud.DataAccessLayer\CareerCloud.DataAccessLayer.csproj", "{6D6F0CDE-6AFB-43ED-96B9-C5EF675B9DC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CareerCloud.DataAccessLayer", "CareerCloud.DataAccessLayer\CareerCloud.DataAccessLayer.csproj", "{6D6F0CDE-6AFB-43ED-96B9-C5EF675B9DC7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CareerCloudCore.UnitTests.Assignment2", "CareerCloudCore.UnitTests.Assignment2-master\CareerCloudCore.UnitTests.Assignment2.csproj", "{2158F370-CBA0-4013-A5F8-249EEB62DA90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{FAE3A243-0EFB-4049-B55B-8E87F7ADEBB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{FAE3A243-0EFB-4049-B55B-8E87F7ADEBB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloud.BusinessLogicLayer", "CareerCloud.BusinessLogicLayer\CareerCloud.BusinessLogicLayer.csproj", "{33D09A47-6DD8-45CD-8074-EAFCE122C32A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CareerCloudCore.UnitTests.Assignment3", "CareerCloudCore.UnitTests.Assignment3-master\CareerCloudCore.UnitTests.Assignment3.csproj", "{B55F1769-931E-480C-AFF6-B1C94ABFC226}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{FAE3A243-0EFB-4049-B55B-8E87F7ADEBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAE3A243-0EFB-4049-B55B-8E87F7ADEBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAE3A243-0EFB-4049-B55B-8E87F7ADEBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33D09A47-6DD8-45CD-8074-EAFCE122C32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D09A47-6DD8-45CD-8074-EAFCE122C32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D09A47-6DD8-45CD-8074-EAFCE122C32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D09A47-6DD8-45CD-8074-EAFCE122C32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B55F1769-931E-480C-AFF6-B1C94ABFC226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55F1769-931E-480C-AFF6-B1C94ABFC226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55F1769-931E-480C-AFF6-B1C94ABFC226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55F1769-931E-480C-AFF6-B1C94ABFC226}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

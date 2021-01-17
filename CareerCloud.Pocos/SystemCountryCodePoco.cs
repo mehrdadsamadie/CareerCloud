@@ -12,6 +12,13 @@ namespace CareerCloud.Pocos
         [Key]
         public string Code { get; set; }
         public string Name { get; set; }
+        [NotMapped]
+        public virtual ICollection<ApplicantProfilePoco> ApplicantProfiles { get; set; }
+        [NotMapped]
+        public virtual ICollection<ApplicantWorkHistoryPoco> ApplicantWorkHistorys { get; set; }
+        [NotMapped]
+        public virtual ICollection<CompanyLocationPoco> CompanyLocations { get; set; }
 
+        
     }
 }

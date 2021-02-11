@@ -22,7 +22,7 @@ namespace CareerCloud.BusinessLogicLayer
 		public override void Update(CompanyJobSkillPoco[] companyJobSkillPocos)
 		{
 			Verify(companyJobSkillPocos);
-			base.Add(companyJobSkillPocos);
+			base.Update(companyJobSkillPocos);
 		}
 		protected override void Verify(CompanyJobSkillPoco[] companyJobSkillPocos)
 		{

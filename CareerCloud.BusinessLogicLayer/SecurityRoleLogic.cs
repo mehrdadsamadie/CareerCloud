@@ -22,7 +22,7 @@ namespace CareerCloud.BusinessLogicLayer
 		public override void Update(SecurityRolePoco[] securityRolePocos)
 		{
 			Verify(securityRolePocos);
-			base.Add(securityRolePocos);
+			base.Update(securityRolePocos);
 		}
 		protected override void Verify(SecurityRolePoco[] securityRolePocos)
 		{

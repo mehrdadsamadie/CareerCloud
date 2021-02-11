@@ -145,22 +145,22 @@ optionsBuilder)
                 .HasForeignKey(d => d.Role);
 
 
-            modelBuilder.Entity<ApplicantEducationPoco>();
-            modelBuilder.Entity<ApplicantJobApplicationPoco>();
-            modelBuilder.Entity<ApplicantResumePoco>();
-            modelBuilder.Entity<ApplicantSkillPoco>();
-            modelBuilder.Entity<ApplicantWorkHistoryPoco>();
-            modelBuilder.Entity<CompanyJobDescriptionPoco>();
-            modelBuilder.Entity<CompanyJobEducationPoco>();
-            modelBuilder.Entity<CompanyJobPoco>();
-            modelBuilder.Entity<CompanyJobSkillPoco>();
-            modelBuilder.Entity<CompanyLocationPoco>();
-            modelBuilder.Entity<CompanyProfilePoco>();
-            modelBuilder.Entity<SecurityLoginPoco>();
-            modelBuilder.Entity<SecurityLoginsLogPoco>();
-            modelBuilder.Entity<SecurityRolePoco>();
-            modelBuilder.Entity<SystemCountryCodePoco>();
-            modelBuilder.Entity<SystemLanguageCodePoco>();
+            //modelBuilder.Entity<ApplicantEducationPoco>();
+            //modelBuilder.Entity<ApplicantJobApplicationPoco>();
+            //modelBuilder.Entity<ApplicantResumePoco>();
+            //modelBuilder.Entity<ApplicantSkillPoco>();
+            //modelBuilder.Entity<ApplicantWorkHistoryPoco>();
+            //modelBuilder.Entity<CompanyJobDescriptionPoco>();
+            //modelBuilder.Entity<CompanyJobEducationPoco>();
+            //modelBuilder.Entity<CompanyJobPoco>();
+            //modelBuilder.Entity<CompanyJobSkillPoco>();
+            //modelBuilder.Entity<CompanyLocationPoco>();
+            //modelBuilder.Entity<CompanyProfilePoco>();
+            //modelBuilder.Entity<SecurityLoginPoco>();
+            //modelBuilder.Entity<SecurityLoginsLogPoco>();
+            //modelBuilder.Entity<SecurityRolePoco>();
+            //modelBuilder.Entity<SystemCountryCodePoco>();
+            //modelBuilder.Entity<SystemLanguageCodePoco>();
 
         }
     }
